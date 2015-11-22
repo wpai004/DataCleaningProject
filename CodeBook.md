@@ -59,7 +59,8 @@ and are shown below:
 [65] "FreqBodyBodyGyroMagnitude-mean"         "FreqBodyBodyGyroMagnitude-std"         
 [67] "FreqBodyBodyGyroJerkMagnitude-mean"     "FreqBodyBodyGyroJerkMagnitude-std"
 
-Variables Key:
+#### Variables Key:
+
 1. SubjectID = (numeric) 1:30 (The ID of the subject within the experiment)
 2. ActivityNames = (Factor with 6 levels) the type of activity the subject was performing (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
 3. Freq = Frequency
