@@ -24,8 +24,8 @@ The test and training data contain measurements for a bunch of variables which h
 and renamed according to the project requirements, these can be found in the output of the script
 and are shown below:
 
-*"SubjectID"
-*"TimeBodyAcclratn-mean-X"
+* "SubjectID"
+* "TimeBodyAcclratn-mean-X"
 *"TimeBodyAcclratn-mean-Z"
 *"TimeBodyAcclratn-std-Y"
 *"TimeGravityAcclratn-mean-X"
