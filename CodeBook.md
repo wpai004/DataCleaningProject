@@ -60,14 +60,15 @@ and are shown below:
 [67] "FreqBodyBodyGyroJerkMagnitude-mean"     "FreqBodyBodyGyroJerkMagnitude-std"
 
 Variables Key:
-SubjectID = 1:30 (The ID of the subject within the experiment)
-ActivityName = the type of activity the subject was performing (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
+SubjectID = (numeric) 1:30 (The ID of the subject within the experiment)
+ActivityNames = (Factor with 6 levels) the type of activity the subject was performing (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
 Freq = Frequency
 Gyro = Speed/Velocity
 Jerk = The body linear acceleration and angular velocity derived in time
 Acclratin = Acceleration
 X/Y/Z = Direction
 Mean/STD = Average/Standard Deviation measurement
+(all variables besides ActivityName are numeric)
 
 ### Code Book:
 
