@@ -97,12 +97,14 @@ and are shown below:
 
 1. SubjectID = (numeric) 1:30 (The ID of the subject within the experiment)
 2. ActivityNames = (Factor with 6 levels) the type of activity the subject was performing (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
-3. Freq = Frequency
-4. Gyro = Speed/Velocity
+3. Freq = Frequency (units of HZ)
+4. Gyro = Speed/Velocity (units are radians/second)
 5. Jerk = The body linear acceleration and angular velocity derived in time
 6. Acclratin = Acceleration
 7. X/Y/Z = Direction
 8. Mean/STD = Average/Standard Deviation measurement
+9. Gravity = standard gravity units 'g'
+10. 
 (all variables besides ActivityName are numeric)
 
 ### Code Book:
